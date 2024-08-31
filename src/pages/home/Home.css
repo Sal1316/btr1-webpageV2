@@ -1,0 +1,32 @@
+/* Reset body margin/padding */
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; Prevent horizontal scrolling */
+}
+
+.home {
+  width: 100%;
+  min-height: calc(73vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT";
+}
+
+.headerContainer {
+  width: auto;
+  padding: 0 20px; /* Add padding for smaller screens */
+  text-align: center;
+}
+
+.headerContainer h1 {
+  color: rgb(214, 210, 210);
+  font-size: calc(2px + 4vw); /* Adjust font size responsively */
+  font-weight: 500;
+  /* margin: 0; */
+}
