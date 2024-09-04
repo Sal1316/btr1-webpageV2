@@ -13,21 +13,21 @@ const Services = () => {
       image: Mig,
       price: 15.99,
       description:
-        "MIG welding is an arc welding process in which a continuous solid wire electrode is fed through a welding gun and into the weld pool, joining the two base materials together. A shielding gas is also sent through the welding gun and protects the weld pool from contamination.",
+        "MIG welding is an arc welding process in which a continuous solid wire electrode is fed through a welding gun and into the weld pool, joining the two base materials together while a shielding gas protects the weld pool from contamination. We offer MIG welding services for structural components such as motor platforms, motor bases, oil tanks, vessels, and more.",
     },
     {
       name: "GTAW/TIG Welding",
       image: Tig,
       price: 11.99,
       description:
-        "TIG stands for tungsten inert gas and is technically called gas tungsten arc welding (GTAW). The process uses a non-consumable tungsten electrode that delivers the current to the welding arc. An inert gas, typically argon, protects and cools the tungsten and weld puddle.",
+        "TIG, or tungsten inert gas welding, also known as gas tungsten arc welding (GTAW), uses a non-consumable tungsten electrode to deliver current to the welding arc. We specialize in welding various materials, including metal, stainless steel, and aluminum. Our expertise includes projects such as piping, tubing, flanges, and pressure vessels using TIG welding",
     },
     {
       name: "SMAW/Stick Welding",
       image: Stick,
       price: 11.99,
       description:
-        "Shielded metal arc welding (SMAW), also known as manual metal arc welding (MMA or MMAW), flux shielded arc welding[1] or informally as stick welding, is a manual arc welding process that uses a consumable electrode covered with a flux to lay the weld.",
+        "Shielded metal arc welding (SMAW), also known as manual metal arc welding (MMA or MMAW), flux shielded arc welding or informally as stick welding, is a manual arc welding process that uses a consumable electrode covered with a flux to lay the weld. ",
     },
     {
       name: "Mobile Welding Services",

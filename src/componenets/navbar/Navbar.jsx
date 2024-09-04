@@ -98,15 +98,15 @@ const Navbar = ({ theme, setTheme }) => {
         >
           Contact
         </StyledLink>
-        <div className="phone ps-5">
+        <StyledLink>
           <PhoneIcon
             className="btn btn-lg btn-primary"
             data-bs-toggle="popover"
             data-bs-title="Contact Us"
             data-bs-content="You can reach us at (951) 259-1530."
-            style={{ fontSize: "3.5rem", cursor: "pointer", fontWeight: "500" }}
+            style={{ fontSize: "3.5rem", cursor: "pointer", fontWeight: "700" }}
           />
-        </div>
+        </StyledLink>
       </ul>
       <div className="search-box">
         <input

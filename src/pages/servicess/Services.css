@@ -66,4 +66,7 @@
   .menuList {
     grid-template-columns: 1fr;
   }
+  .servTitle {
+    font-size: 26px;
+  }
 }

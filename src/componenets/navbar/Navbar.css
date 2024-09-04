@@ -11,7 +11,7 @@
 }
 
 .logo {
-  width: 80px; /* Reduced logo size */
+  width: 72px; /* Reduced logo size */
   cursor: pointer;
   flex-shrink: 0; /* Prevents the logo from shrinking */
 }
@@ -74,10 +74,6 @@ ul {
   justify-content: center;
   align-items: center;
   height: 100%; /* Adjust to match the height of the navbar */
-}
-
-.phone-icon {
-  font-size: 5.5rem; /* Increase the size as needed */
 }
 
 .dark .search-box {
