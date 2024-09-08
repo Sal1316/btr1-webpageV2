@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo_dark from "../../assets/btr1-logo.png";
-import logo_light from "../../assets/logo-light.png";
+import logo_dark from "../../assets/Logo-croped.png";
+import logo_light from "../../assets/Logo White-croped.png";
 import search_icon_light from "../../assets/Icons/search-w.png";
 import search_icon_dark from "../../assets/Icons/search-b.png";
 import toggle_light from "../../assets/Icons/day.png";
