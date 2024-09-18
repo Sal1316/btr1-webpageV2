@@ -70,3 +70,9 @@
     font-size: 26px;
   }
 }
+@media only screen and (max-width: 485px) {
+  /* add the burger icon */
+  .card {
+    max-width: 295px;
+  }
+}

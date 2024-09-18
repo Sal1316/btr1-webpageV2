@@ -1,25 +1,25 @@
 import Navbar from "./componenets/navbar/Navbar";
 import Home from "./pages/home/Home";
-import Services from "./pages/servicess/Services";
+import Services from "./pages/services/Services";
 import Contact from "./pages/contact/Contact";
 import Footer from "./componenets/footer/Footer";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  const current_theme = localStorage.getItem("current_theme");
-  const [theme, setTheme] = useState(current_theme ? current_theme : "light");
+  // const current_theme = localStorage.getItem("current_theme");
+  // const [theme, setTheme] = useState(current_theme ? current_theme : "light");
 
-  useEffect(() => {
-    localStorage.setItem("current_theme", theme);
-  }, [theme]); // whenever the 'theme' gets updated it runs the code inside useEffect().
+  // useEffect(() => {
+  //   localStorage.setItem("current_theme", theme);
+  // }, [theme]); // whenever the 'theme' gets updated it runs the code inside useEffect().
 
   return (
     <>
-      <div className={`mainContainer ${theme}`}>
+      <div className={`mainContainer`}>
         <Router>
-          <Navbar theme={theme} setTheme={setTheme} />
+          <Navbar  />
           <Routes>
             <Route path="/" exact Component={Home} />
             <Route path="/services" exact Component={Services} />

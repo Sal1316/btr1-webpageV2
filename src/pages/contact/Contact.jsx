@@ -58,8 +58,8 @@ const Contacts = () => {
               <EmailIcon style={{ color: "blue" }} /> email: btr1corp@gmail.com
             </h2>
             <h3 className="pt-4">
-              Or simply fill out the form below and we will get in back to you
-              asn soon as possible.
+              Or simply fill out the form below, and we will get back to you
+              as soon as possible.
             </h3>
           </div>
 
