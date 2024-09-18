@@ -13,21 +13,21 @@ const Services = () => {
       image: Mig,
       price: 15.99,
       description:
-        "MIG welding is an arc welding process in which a continuous solid wire electrode is fed through a welding gun and into the weld pool, joining the two base materials together while a shielding gas protects the weld pool from contamination. We offer MIG welding services for structural components such as motor platforms, motor bases, oil tanks, vessels, and more.",
+        "Our MIG welding services are tailored for a variety of industrial and commercial applications. We specialize in the precise welding of motor platforms, skids, pressure vessels, and pressure chambers, ensuring structural integrity and durability. Whether you require complex fabrications or lighter projects, our team delivers top-quality workmanship, perfect for both heavy-duty and light fabrication needs.",
     },
     {
       name: "GTAW/TIG Welding",
       image: Tig,
       price: 11.99,
       description:
-        "TIG, or tungsten inert gas welding, also known as gas tungsten arc welding (GTAW), uses a non-consumable tungsten electrode to deliver current to the welding arc. We specialize in welding various materials, including metal, stainless steel, and aluminum. Our expertise includes projects such as piping, tubing, flanges, and pressure vessels using TIG welding",
+        "Our TIG welding services are designed for precision and cleanliness, making them ideal for specialized projects. We offer expert welding of piping and tubing, with a focus on sanitary stainless steel. Additionally, we provide aluminum welding services, ensuring strong, clean welds for lightweight and corrosion-resistant applications.",
     },
     {
       name: "SMAW/Stick Welding",
       image: Stick,
       price: 11.99,
       description:
-        "Shielded metal arc welding (SMAW), also known as manual metal arc welding (MMA or MMAW), flux shielded arc welding or informally as stick welding, is a manual arc welding process that uses a consumable electrode covered with a flux to lay the weld. ",
+        "Our SMAW (Shielded Metal Arc Welding) services are perfect for situations where MIG or TIG welding isn't feasible. This versatile method excels in challenging environments, such as outdoor or less controlled conditions, offering durability and strength. Whether working with thicker materials or tackling repairs in hard-to-reach areas, our skilled team delivers reliable, high-quality welds.",
     },
     {
       name: "Mobile Welding Services",
@@ -52,9 +52,9 @@ const Services = () => {
         style={{ backgroundImage: `url(${MetalGrate})` }}
       >
         <div className="service">
-          <h1 className="servTitle p-5">
+          <p className="servTitle p-5">
             Serving Riverside, San Bernadino, and San Diego Counties
-          </h1>
+          </p>
           <div className="servList pb-4">
             {ServicesOffered.map((service, index) => (
               <div key={index} className="card">

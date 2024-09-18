@@ -48,50 +48,52 @@ const Contacts = () => {
         style={{ backgroundImage: `url(${WorkImage})` }}
       ></div>
       <div className="rightSide">
-        <div className="cardContainer">
+        <div className="contactContainer">
           {/*  */}
           <div className="contact-info">
-            <h2 className="pb-4">Call or email us at:</h2>
-            <h3 className="pb-4">
-              <PhoneIcon style={{ color: "blue" }} /> phone: (951) 750-2818
+            <h2 className="pb-4 fs-2">Call or email us at:</h2>
+            <h3 className="pb-4 fs-2">
+              <PhoneIcon style={{ color: "blue" }} /> phone: (951) 259-1530
             </h3>
-            <h3>
+            <span>
               <EmailIcon style={{ color: "blue" }} /> email: btr1corp@gmail.com
-            </h3>
-            <h4 className="pt-4">
-              Or simply fill out the form below, and we will get back to you as
-              soon as possible.
-            </h4>
+            </span>
+            <p className="pt-4 fs-2">
+              For questions and answers, send us a message and we will get back
+              to you as soon as possible.
+            </p>
           </div>
           {/*  */}
-          <form id="contact-form" ref={form} onSubmit={sendEmail}>
-            <label>Name</label>
-            <input
-              name="user_name"
-              placeholder="Please enter your name..."
-              type="text"
-              required
-            />
-            <label htmlFor="email">Email</label>
-            <input
-              name="user_email"
-              placeholder="Please enter your email..."
-              type="email"
-              required
-            />
-            <label htmlFor="message">Message</label>
-            <textarea
-              rows="6"
-              placeholder="Enter message..."
-              name="message"
-              required
-            ></textarea>
-            <div className="btnContainer">
-              <button className="submitBtn" type="submit">
-                Send Message
-              </button>
-            </div>
-          </form>
+          <div id="contact-form">
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input
+                name="user_name"
+                placeholder="Please enter your name..."
+                type="text"
+                required
+              />
+              <label htmlFor="email">Email</label>
+              <input
+                name="user_email"
+                placeholder="Please enter your email..."
+                type="email"
+                required
+              />
+              <label htmlFor="message">Message</label>
+              <textarea
+                rows="6"
+                placeholder="Enter message..."
+                name="message"
+                required
+              ></textarea>
+              <div className="btnContainer">
+                <button className="submitBtn" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
