@@ -26,12 +26,11 @@
 }
 
 .cardContainer {
-  min-width: 350px;
+  /* min-width: 300px; min-width is the smallest that the container will get when responsive. */
+  width: 90%;
 }
 .contact-info {
-  padding: 30px;
-  padding-top: -10px;
-  color: rgb(39, 2, 32);
+  color: rgb(169, 28, 143);
 }
 
 form {
@@ -39,49 +38,40 @@ form {
   flex-direction: column;
   width: auto;
   height: auto;
-  padding: 30px;
-}
-
-form input {
-  height: 40px;
-  width: 80%;
-  border: none;
-  border-bottom: 1px solid #121619;
-  color: black;
 }
 form label {
-  width: 80%;
+  width: 100%;
 }
+form input,
 form textarea {
-  margin-top: 15px;
-  height: 70px;
-  width: 80%;
+  height: 40px;
+  width: 100%;
+  max-width: 500px;
   border: none;
   border-bottom: 1px solid #121619;
   color: black;
+  flex-shrink: 0; /* Prevent input from shrinking */
 }
 input::placeholder,
 textarea::placeholder {
-  font-weight: bold;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
+  padding-left: 9px;
 }
 form input:focus,
 textarea:focus {
   outline: none;
 }
 
-#contact-form label {
-  padding-bottom: 10px;
-}
 form label {
-  margin-top: 15px;
+  font-weight: bold;
   font-size: 15px;
-  color: grey;
+  width: 140px;
+  color: Black;
 }
 
 form button {
-  margin-top: 40px;
+  margin-top: 20px;
   width: 140px;
   height: 40px;
   border: none;
@@ -101,8 +91,24 @@ form button {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 432px) {
   .leftSide {
     display: none;
+  }
+  .rightSide {
+    font-size: larger;
+  }
+  .cardContainer {
+    padding-top: 20px;
+  }
+  form input {
+    height: 30px;
+  }
+  form textarea {
+    padding-top: 10px;
+    
+  }
+  .rightSide {
+    justify-content: flex-start;
   }
 }

@@ -49,20 +49,21 @@ const Contacts = () => {
       ></div>
       <div className="rightSide">
         <div className="cardContainer">
+          {/*  */}
           <div className="contact-info">
-            <h1 className="pb-4">Call or email us at:</h1>
-            <h2 className="pb-4">
+            <h2 className="pb-4">Call or email us at:</h2>
+            <h3 className="pb-4">
               <PhoneIcon style={{ color: "blue" }} /> phone: (951) 750-2818
-            </h2>
-            <h2>
-              <EmailIcon style={{ color: "blue" }} /> email: btr1corp@gmail.com
-            </h2>
-            <h3 className="pt-4">
-              Or simply fill out the form below, and we will get back to you
-              as soon as possible.
             </h3>
+            <h3>
+              <EmailIcon style={{ color: "blue" }} /> email: btr1corp@gmail.com
+            </h3>
+            <h4 className="pt-4">
+              Or simply fill out the form below, and we will get back to you as
+              soon as possible.
+            </h4>
           </div>
-
+          {/*  */}
           <form id="contact-form" ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input
