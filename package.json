@@ -1,5 +1,5 @@
 {
-  "homepage": "http://sal1316.github.io/", 
+  "homepage": "http://sal1316.github.io/btr1welds/", 
   "name": "btr1-webpage_v2",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node App.jsx",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

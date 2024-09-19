@@ -5,8 +5,8 @@ import Contact from "./pages/contact/Contact";
 import Footer from "./componenets/footer/Footer";
 // import { useEffect, useState } from "react";
 import "./App.css";
-import { Routes, Route } from "react-router-dom"; //BrowserRouter as Router,
-import { HashRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //
+// import { HashRouter as Router } from "react-router-dom";
 
 function App() {
   return (
