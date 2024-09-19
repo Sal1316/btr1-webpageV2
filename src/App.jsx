@@ -5,21 +5,15 @@ import Contact from "./pages/contact/Contact";
 import Footer from "./componenets/footer/Footer";
 // import { useEffect, useState } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom"; //BrowserRouter as Router,
+import { HashRouter as Router } from "react-router-dom";
 
 function App() {
-  // const current_theme = localStorage.getItem("current_theme");
-  // const [theme, setTheme] = useState(current_theme ? current_theme : "light");
-
-  // useEffect(() => {
-  //   localStorage.setItem("current_theme", theme);
-  // }, [theme]); // whenever the 'theme' gets updated it runs the code inside useEffect().
-
   return (
     <>
       <div className={`mainContainer`}>
         <Router>
-          <Navbar  />
+          <Navbar />
           <Routes>
             <Route path="/" exact Component={Home} />
             <Route path="/services" exact Component={Services} />
