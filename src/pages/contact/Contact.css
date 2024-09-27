@@ -17,7 +17,6 @@
   flex: 50%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
 }
 
 .rightSide {
@@ -33,7 +32,7 @@
   width: 90%;
 }
 .contact-info {
-  color: rgb(169, 28, 143);
+  color: rgb(3, 24, 98);
   text-align: center;
 }
 #contact-form {
@@ -111,17 +110,16 @@ form button {
   }
   .rightSide {
     font-size: larger;
+    justify-content: flex-start;
   }
   .contactContainer {
     padding-top: 20px;
+
   }
   form input {
     height: 30px;
   }
   form textarea {
     padding-top: 10px;
-  }
-  .rightSide {
-    justify-content: flex-start;
   }
 }

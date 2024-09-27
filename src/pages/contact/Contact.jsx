@@ -55,11 +55,11 @@ const Contacts = () => {
             <h3 className="pb-4 fs-2">
               <PhoneIcon style={{ color: "blue" }} /> phone: (951) 259-1530
             </h3>
-            <span>
+            <h3>
               <EmailIcon style={{ color: "blue" }} /> email: btr1corp@gmail.com
-            </span>
+            </h3>
             <p className="pt-4 fs-2">
-              For questions and answers, send us a message and we will get back
+              For questions, send us a message and we will get back
               to you as soon as possible.
             </p>
           </div>

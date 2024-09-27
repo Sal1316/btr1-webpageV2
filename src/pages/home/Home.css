@@ -2,7 +2,6 @@
 body {
   margin: 0;
   padding: 0;
-  /* overflow-x: hidden; Prevent horizontal scrolling */
 }
 
 .home {
@@ -22,11 +21,12 @@ body {
   width: auto;
   padding: 0 20px; /* Add padding for smaller screens */
   text-align: center;
+  background-color: grey;
+  border-radius: 10px;
+  background: rgba(22, 27, 46, 0.4);
 }
 
-.headerContainer h1 {
-  color: rgb(214, 210, 210);
+.headerContainer h2 {
+  color: white;
   font-size: calc(2px + 6vw); /* Adjust font size responsively */
-  font-weight: 500;
-  /* margin: 0; */
 }

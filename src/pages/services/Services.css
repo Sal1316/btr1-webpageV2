@@ -73,6 +73,6 @@
 @media only screen and (max-width: 485px) {
   /* add the burger icon */
   .card {
-    max-width: 295px;
+    max-width: 300px;
   }
 }

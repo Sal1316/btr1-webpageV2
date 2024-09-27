@@ -3,10 +3,8 @@ import Home from "./pages/home/Home";
 import Services from "./pages/services/Services";
 import Contact from "./pages/contact/Contact";
 import Footer from "./componenets/footer/Footer";
-// import { useEffect, useState } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; //
-// import { HashRouter as Router } from "react-router-dom";
 
 function App() {
   return (

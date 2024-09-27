@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo_dark from "../../assets/Logo-croped.png";
-// import toggle_dark from "../../assets/Icons/night.png";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import styled from "styled-components";
 import "./Navbar.css";
 
 const StyledLink = styled(Link)`
-  color: "black";
+  color: white;
   font-size: 24px;
   text-decoration: none;
   margin: 10px 0;
@@ -45,7 +44,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <Link to="/">
-          <img src={logo_dark} alt="Logo" className="logo" />
+          <img src={logo_dark} alt="Logo" className="logo pt-1 pb-1" />
         </Link>
 
         {/* Hamburger Icon */}
